@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edchi | Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid main d-flex flex-column justify-content-center align-items-center">
+        <div class="container converter d-flex flex-column justify-content-evenly align-items-center">
+            <span class="h3">Edchi's Length Converter</span>
+            <div class="convertion-area">
+                <div class="millimetre">
+                    <div class="label-value h4">
+                        <span class="me-2" id="mm-value">0</span>mm
+                    </div>
+                </div>
+                <div class="centimetre">
+                    <div class="label-value h4">
+                        <span class="me-2" id="cm-value">0</span>cm
+                    </div>
+                </div>
+                <div class="meter">
+                    <div class="label-value h4">
+                        <span class="me-2" id="m-value">0</span>m
+                    </div>
+                </div>
+            </div>
+            <form action="#" method="">
+                <div class="input-area">
+                    <label class="h4 me-1" for="givenNum">Convert Something!</label>
+                    <input type="number" placeholder="0" id="givenNum">
+                </div>
+                <div class="buttons d-flex justify-content-evenly pb-4">
+                    <button onclick="convertMM()">
+                        <span>MM</span>
+                    </button>
+                    <button onclick="convertCM()">
+                        <span>CM</span>
+                    </button>
+                    <button onclick="convertM()">
+                        <span>M</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

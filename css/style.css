@@ -1,0 +1,59 @@
+
+body {
+    background-color: #0b0c10;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    height: 100vh;
+    width: 100vh;
+}
+
+.converter {
+    background-color: #0b0c10;
+    height: 65vh;
+    color: #ced4da;
+    border: 5px solid #66fcf1;
+    border-radius: 5px;
+}
+
+.label-value {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    border: 1px solid #66fcf1;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input {
+    text-align: center;
+    width: 150px;
+    border: 2px solid #17f4e5;
+    border-radius: 5px;
+    color: #0b0c10;
+}
+
+input:hover {
+    background-color: #66fcf1;
+    color: #0b0c10;
+}
+
+.buttons span {
+    color: #ced4da;
+}
+
+.buttons span:hover {
+    color: #0b0c10;
+}
+
+button {
+    margin-top: 5%;
+    background-color: #0b0c10;
+    border: 2px solid #66fcf1;
+}
+
+button:hover {
+    color: #0b0c10;
+    background-color: #17f4e5;
+}
