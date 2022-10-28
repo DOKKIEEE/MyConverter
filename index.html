@@ -10,44 +10,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container-fluid main d-flex flex-column justify-content-center align-items-center">
-        <div class="container converter d-flex flex-column justify-content-evenly align-items-center">
-            <span class="h3">Edchi's Length Converter</span>
-            <div class="convertion-area">
-                <div class="millimetre">
-                    <div class="label-value h4">
-                        <span class="me-2" id="mm-value">0</span>mm
-                    </div>
-                </div>
-                <div class="centimetre">
-                    <div class="label-value h4">
-                        <span class="me-2" id="cm-value">0</span>cm
-                    </div>
-                </div>
-                <div class="meter">
-                    <div class="label-value h4">
-                        <span class="me-2" id="m-value">0</span>m
-                    </div>
-                </div>
+    <div class="container-fluid hero d-flex flex-column justify-content-evenly align-items-center">
+       <div>
+            <span class="h2">What Do You Need?</span>
+       </div>
+       <div class="menu d-flex flex-column justify-content-evenly align-items-center">
+            <div class="option1">
+                <span><a href="converters/mmConverter.html">Millimetre Converter</a></span>    
             </div>
-            <form action="#" method="">
-                <div class="input-area">
-                    <label class="h4 me-1" for="givenNum">Convert Something!</label>
-                    <input type="number" placeholder="0" id="givenNum">
-                </div>
-                <div class="buttons d-flex justify-content-evenly pb-4">
-                    <button onclick="convertMM()">
-                        <span>MM</span>
-                    </button>
-                    <button onclick="convertCM()">
-                        <span>CM</span>
-                    </button>
-                    <button onclick="convertM()">
-                        <span>M</span>
-                    </button>
-                </div>
-            </form>
-        </div>
+            <div class="option2">
+                <span><a href="converters/cmConverter.html">Centimetre Converter</a></span>
+            </div>
+            <div class="option3">
+                <span><a href="converters/mConverter.html">Meter Converter</a></span>
+            </div>
+            <div class="option4">
+                <span><a href="converters/kmConverter.html">Kilometre Converter</a></span>
+            </div>
+       </div>
     </div>
 
     <script src="js/script.js"></script>
